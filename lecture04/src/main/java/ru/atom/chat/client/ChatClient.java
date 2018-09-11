@@ -14,7 +14,7 @@ public class ChatClient {
     private static final OkHttpClient client = new OkHttpClient();
     private static final String PROTOCOL = "http://";
     private static final String HOST = "localhost";
-    private static final String PORT = ":8080";
+    private static final String PORT = ":8088";
 
     //POST host:port/chat/login?name=my_name
     public static Response login(String name) throws IOException {
